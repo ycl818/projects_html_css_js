@@ -52,3 +52,7 @@ body {
   font-size: 1.13rem;
   color: #474747;
 }
+
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
